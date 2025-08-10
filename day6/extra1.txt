@@ -1,0 +1,9 @@
+radar
+level
+world
+python
+madam
+civic
+openai
+racecar
+hello

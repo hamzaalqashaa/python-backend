@@ -1,0 +1,8 @@
+192.168.0.1 200 /index.html
+192.168.0.2 404 /missing.html
+192.168.0.3 500 /server-error
+192.168.0.4 200 /about.html
+192.168.0.5 200 /contact.html
+192.168.0.6 404 /not-found
+BAD LINE HERE
+192.168.0.7 abc /weird-status
