@@ -26,8 +26,9 @@ def validate_passwords():
         with open("passwords.txt", "r", encoding="utf-8") as infile, \
              open("strong_passwords.txt", "w", encoding="utf-8") as outfile, \
              open("password_errors.log", "w", encoding="utf-8") as error_log:
-
             for line_num, line in enumerate(infile, start=1):
+                print(line_num)
+                print(line)
                 password = line.strip()
                 if not password:
                     continue  # skip empty lines
@@ -50,3 +51,4 @@ def validate_passwords():
 
 if __name__ == "__main__":
     validate_passwords()
+    
